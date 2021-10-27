@@ -1,0 +1,56 @@
+*{
+    magin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container ul{
+    list-style: none;
+    display: flex;
+    max-width: 800px;
+    margin:auto;
+}
+.container li{
+    width:33.33%;
+    height:100%;
+    padding:40px 0;
+    text-align:center;
+    transition: 0.2s linear;
+   
+}
+.container li:hover{
+    transform: scale(1.1);
+}
+.container li:nth-child(1)
+{
+    background-color: antiquewhite;
+}
+.container li:nth-child(2)
+{
+    background-color: rgb(236, 219, 197);
+}
+.container li:nth-child(3)
+{
+    background-color: antiquewhite;
+}
+li p.number{
+    font-size:40px;
+    padding:0;
+    font-weight: bold;
+}
+li p{
+    color:black;
+    font-size: 18px;
+    margin:0;
+}
+li span{
+    width:50px;
+    height: 2px;
+    background-color: black;
+    display: block;
+    margin:auto;
+    padding: 0;
+}
+li i{
+    color:black;
+    font-size:48px;
+}
